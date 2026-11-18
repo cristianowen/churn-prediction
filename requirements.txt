@@ -1,0 +1,2 @@
+# Used by Streamlit Community Cloud. For local dev: pip install -e ".[api,app,dev]"
+-e .[app]

@@ -1,0 +1,18 @@
+seed: 42
+test_size: 0.2
+cv_folds: 5
+n_trials: 40          # Optuna trials for hyperparameter search
+
+data:
+  path: data/telco_churn.csv
+  url: https://raw.githubusercontent.com/IBM/telco-customer-churn-on-icp4d/master/data/Telco-Customer-Churn.csv
+
+# Assumptions behind the retention campaign. Change these to match your business.
+economics:
+  offer_cost: 60.0        # $ cost of a retention offer (e.g. discount), paid by everyone we target
+  success_rate: 0.35      # share of would-be churners the offer actually keeps
+  horizon_months: 12      # months of revenue we count as "saved" when a churner stays
+
+paths:
+  model: models/churn_model.joblib
+  reports: reports
