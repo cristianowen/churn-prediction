@@ -1,0 +1,6 @@
+policy,pct_targeted,churners_reached,profit_test,profit_per_1000_customers
+No campaign,0.0,0,0.0,0.0
+Offer everyone,1.0,374,29762.58,21123.194
+"Model, default 0.5 threshold",0.207,194,45462.78,32265.99
+"Model, profit-tuned threshold (0.18)",0.497,323,58783.62,41720.099
+"Model, per-customer expected value",0.44,297,61746.12,43822.654

@@ -1,0 +1,12 @@
+.venv/
+__pycache__/
+*.pyc
+*.egg-info/
+.pytest_cache/
+.DS_Store
+
+# downloaded on first run
+data/
+
+# trained models are rebuilt with `make train`
+models/*.joblib

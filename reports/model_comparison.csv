@@ -1,0 +1,8 @@
+model,tuned,roc_auc,roc_auc_std,pr_auc,pr_auc_std,accuracy,accuracy_std,brier,brier_std
+baseline,False,0.5,0.0,0.2654,0.0001,0.7346,0.0001,0.1949,0.0
+logistic_regression,False,0.8471,0.0111,0.6621,0.0141,0.808,0.0129,0.1344,0.0043
+random_forest,False,0.8446,0.0092,0.6577,0.0231,0.8012,0.0126,0.1356,0.0042
+gradient_boosting,False,0.8403,0.0078,0.6469,0.0222,0.7975,0.0059,0.1385,0.0045
+logistic_regression,True,0.8472,0.0112,0.6621,0.0135,0.8078,0.011,0.1344,0.0043
+random_forest,True,0.8475,0.0106,0.6638,0.0225,0.8021,0.0107,0.1348,0.0041
+gradient_boosting,True,0.8489,0.0114,0.6668,0.0222,0.8049,0.0107,0.1339,0.005
